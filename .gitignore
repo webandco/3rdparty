@@ -43,6 +43,14 @@ symfony/routing/Symfony/Component/Routing/Tests/
 symfony/routing/Symfony/Component/Routing/phpunit.xml.dist
 symfony/routing/Symfony/Component/Routing/.gitignore
 
+symfony/event-dispatcher/Symfony/EventDispatcher/Debug/Routing/Tests/
+symfony/event-dispatcher/Symfony/EventDispatcher/Debug/phpunit.xml.dist
+symfony/event-dispatcher/Symfony/EventDispatcher/Debug/.gitignore
+
+symfony/process/Symfony/Component/Process/Routing/Tests/
+symfony/process/Symfony/Component/Process/phpunit.xml.dist
+symfony/process/Symfony/Component/Process/.gitignore
+
 pimple/pimple/ext
 pimple/pimple/.gitignore
 pimple/pimple/.travis.yml
