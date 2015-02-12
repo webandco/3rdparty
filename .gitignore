@@ -52,3 +52,15 @@ ircmaxell/password-compat/README.md
 ircmaxell/password-compat/phpunit.xml.dist
 ircmaxell/password-compat/test/
 ircmaxell/password-compat/version-test.php
+
+swiftmailer/swiftmailer/.travis.yml
+swiftmailer/swiftmailer/phpunit.xml.dist
+swiftmailer/swiftmailer/doc/
+swiftmailer/swiftmailer/notes/
+swiftmailer/swiftmailer/tests/
+swiftmailer/swiftmailer/.gitattributes
+swiftmailer/swiftmailer/.gitignore
+swiftmailer/swiftmailer/CHANGES
+swiftmailer/swiftmailer/README
+swiftmailer/swiftmailer/VERSION
+swiftmailer/swiftmailer/composer.json
