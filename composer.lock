@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f081d428c1941871a57782c92d01287d",
+    "hash": "9d41f7df57a5b4565a7d21436be394b9",
     "packages": [
         {
             "name": "bantu/ini-get-wrapper",
@@ -958,7 +958,7 @@
                 "reference": "master"
             },
             "type": "library",
-            "time": "2015-01-01 13:17:44"
+            "time": "2015-02-04 10:44:57"
         },
         {
             "name": "mrclay/minify",
@@ -1662,6 +1662,58 @@
             "time": "2013-10-02 15:57:01"
         },
         {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Corbyn"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "mail",
+                "mailer"
+            ],
+            "time": "2014-12-05 14:17:14"
+        },
+        {
             "name": "symfony/console",
             "version": "v2.5.6",
             "target-dir": "Symfony/Component/Console",
@@ -1901,7 +1953,8 @@
         "james-heinrich/getid3": 20,
         "natxet/cssmin": 20,
         "mrclay/minify": 20,
-        "pear/pear_exception": 20
+        "pear/pear_exception": 20,
+        "swiftmailer/swiftmailer": 0
     },
     "prefer-stable": false,
     "platform": [],
